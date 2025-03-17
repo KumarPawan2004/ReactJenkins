@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React Jenkins
+          Learn React Jenkins CICD
         </a>
       </header>
     </div>
