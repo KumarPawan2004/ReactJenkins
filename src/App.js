@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+const App = () => {
+  const containerStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+    background: 'linear-gradient(to right, #FFD700, #FF8C00)',
+  };
+
+  const boxStyle = {
+    padding: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+    color: 'white',
+    backgroundColor: '#FFA500',
+    borderRadius: '15px',
+    boxShadow: '0px 5px 15px rgba(0, 0, 0, 0.3)',
+    border: '4px solid white',
+    textAlign: 'center',
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Jenkins CICD
-        </a>
-      </header>
+    <div style={containerStyle}>
+      <div style={boxStyle}>🚀 Test File Pipeline(Jenkins) 🚀</div>
     </div>
   );
-}
+};
 
 export default App;
